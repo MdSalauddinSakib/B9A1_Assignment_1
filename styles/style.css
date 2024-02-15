@@ -19,7 +19,7 @@ _____________________________ */
     margin: 20px 40px;
 }
 
-.banner .bg-img {
+.bg-img {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../assets/images/Banner-image.png);
     height: 700px;
@@ -27,12 +27,10 @@ _____________________________ */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
 }
 
 .banner .text {
     color: #fff;
-
     text-align: center;
     position: absolute;
     top: 50%;
@@ -100,4 +98,63 @@ _____________________________ */
     font-weight: 700;
     line-height: normal;
     margin-bottom: 50px;
+}
+
+/*___________________________
+
+    Party Section Style
+_____________________________ */
+
+.party{
+    margin-bottom: 120px;
+}
+
+.party .bg-img {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../assets/images/midnight-party.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 120px;
+}
+
+.bg-img .party-element {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    padding: 126px;
+}
+
+.party-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.party-text a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
 }
