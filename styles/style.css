@@ -105,7 +105,7 @@ _____________________________ */
     Party Section Style
 _____________________________ */
 
-.party{
+.party {
     margin-bottom: 120px;
 }
 
@@ -157,4 +157,37 @@ _____________________________ */
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+}
+
+/*___________________________
+
+    Portfolio Section Style
+_____________________________ */
+
+.portfolio-text h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-text strong {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
 }
