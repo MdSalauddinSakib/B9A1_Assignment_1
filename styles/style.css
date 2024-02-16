@@ -263,7 +263,7 @@ _____________________________ */
     font-family: Inter;
     font-size: 20px;
     line-height: 32px;
-    
+
     margin-bottom: 48px;
 }
 
@@ -286,4 +286,43 @@ _____________________________ */
     background: #F00;
     color: #FFF;
     border-radius: 0px 50px 50px 0px;
+}
+
+/*___________________________
+
+    Footer Section Style
+_____________________________ */
+
+.footer {
+    background-color: #070211;
+    color: #fff;
+    margin-bottom: 300px;
+}
+
+.address {
+    display: flex;
+    gap: 500px;
+    justify-content: space-around;
+    padding: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.right-address a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo{
+    padding: 40px 0 40px;
+    text-align: center;
+    margin: 98px 0 98px;
+}
+
+.logo a{
+    padding: 10px;
 }
