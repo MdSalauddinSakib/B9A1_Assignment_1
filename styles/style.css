@@ -157,6 +157,11 @@ _____________________________ */
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.party-text a:hover{
+    color: #F00;
 }
 
 /*___________________________
