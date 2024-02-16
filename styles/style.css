@@ -160,7 +160,7 @@ _____________________________ */
     transition: 0.3s;
 }
 
-.party-text a:hover{
+.party-text a:hover {
     color: #F00;
 }
 
@@ -176,6 +176,7 @@ _____________________________ */
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 16px;
 }
 
 .portfolio-text strong {
@@ -195,4 +196,23 @@ _____________________________ */
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+
+.gifts-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-set{
+    flex: 1 33.33%;
+    padding: 5px;
+}
+
+.gifts-img img{
+    width: 100%;
+    height: auto;
 }
