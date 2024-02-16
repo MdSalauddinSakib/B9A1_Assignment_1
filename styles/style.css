@@ -166,6 +166,59 @@ _____________________________ */
 
 /*___________________________
 
+    Bonus Section Style
+_____________________________ */
+
+/*___________________________
+
+    Event Section Style
+_____________________________ */
+
+.event{
+    margin-bottom: 120px;
+}
+
+.event-bg {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.01) 100%);
+}
+
+.event-details {
+    text-align: center;
+    padding: 40px;
+}
+
+.event-details span {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.event-details h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.event-details button {
+    margin-top: 48px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*___________________________
+
     Portfolio Section Style
 _____________________________ */
 
@@ -296,7 +349,6 @@ _____________________________ */
 .footer {
     background-color: #070211;
     color: #fff;
-    margin-bottom: 300px;
 }
 
 .address {
@@ -312,17 +364,17 @@ _____________________________ */
     line-height: 40px;
 }
 
-.right-address a{
+.address a {
     text-decoration: none;
     color: #fff;
 }
 
-.logo{
+.logo {
     padding: 40px 0 40px;
     text-align: center;
     margin: 98px 0 98px;
 }
 
-.logo a{
+.logo a {
     padding: 10px;
 }
