@@ -312,10 +312,9 @@ _____________________________ */
 }
 
 .gifts-img {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 22px;
 
 }
 
@@ -422,4 +421,11 @@ _____________________________ */
 
 .logo a {
     padding: 10px;
+}
+
+.horizontal{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 1px 0.5px;
 }
