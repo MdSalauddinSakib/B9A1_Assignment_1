@@ -174,7 +174,7 @@ _____________________________ */
     Event Section Style
 _____________________________ */
 
-.event{
+.event {
     margin-bottom: 120px;
 }
 
@@ -219,6 +219,60 @@ _____________________________ */
 
 /*___________________________
 
+    New Offer Section Style
+_____________________________ */
+
+.new-offer-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 33.33%;
+    margin-bottom: 120px;
+}
+
+.new-offer-elements .part-1 h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.new-offer-elements .part-1 strong {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.new-offer-elements .part-2 img {
+    width: 400px;
+    height: 400px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 28px;
+    transition: 0.3s;
+}
+
+.new-offer-elements .part-2 img:hover{
+    width: 450px;
+    height: 450px;
+    border-radius: 463px;
+    border: 15px solid rgba(255, 0, 0, 0.534);
+    padding: 18px;
+}
+
+.new-offer-elements .part-3 strong {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/*___________________________
+
     Portfolio Section Style
 _____________________________ */
 
@@ -246,7 +300,7 @@ _____________________________ */
     text-transform: capitalize;
 }
 
-.portfolio-text p {
+.para {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -309,15 +363,6 @@ _____________________________ */
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
-}
-
-.subscribe-text p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    line-height: 32px;
-
-    margin-bottom: 48px;
 }
 
 .subscribe-text label {
